@@ -1,0 +1,6 @@
+node_modules
+cypress/chethan
+cypress/videos
+cypress/reprts
+cypress/screenshots
+package-lock.json
