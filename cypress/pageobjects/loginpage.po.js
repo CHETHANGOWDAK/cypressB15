@@ -1,25 +1,19 @@
-class loginPage{
+class loginpage{
 
-
-    userNameInput(){
-
-        return '//input[@name="username"]'
-    }
-    passwordInput(){
-        return 'input[name="password"]'
-    }
-    loginBtn(){
-
-        return 'button[type="submit"]'
-    }
-
-    loginErrorMessage(){
-  return 'Invalid credentials'
-
-    }
+usrnameInput(){
+return'input["placeholder="Username"]'
+}
+passwordInput(){
+return'input[type="password"]'
+}
+loginButton (){
+return'button[type="submit"]'
+}
+loginErrorMessage (){
+return'Invalid credentials'
+}
 }
 //object
-const login = new loginPage()
-
+const login=newloginpage()
 //export
- export default login
+exportdefaultlogin
